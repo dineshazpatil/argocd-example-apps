@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: CronJob
 metadata:
-  name: devcronjob
+  name: qacronjob
 spec:
   schedule: "*/1 */2 * * *"
   jobTemplate:
